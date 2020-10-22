@@ -4,3 +4,7 @@ services:
   github:
     repo: digitalocean/sample-golang
     branch: main
+  http_port: 8080
+  routes:
+  - path: "/"
+  run_command: "bin/sample-golang"
